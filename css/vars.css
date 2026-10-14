@@ -14,7 +14,7 @@
     --color-white: hsl(var(--color-white-hsl));
     
     /* my colours */
-    --dark-bg: #1C1B22; /* #0D0614 */
+    --dark-bg: #1C1B22; /* #1C1B22 */
     --light-bg: #F0F0F4;
 
     /* Font-families */
@@ -53,9 +53,9 @@
 @media (prefers-color-scheme: light) {
     :root {
         --primary-background-color: var(--light-bg);
-        --primary-font-color: hsl(var(--color-white-hsl) / 0.75);
-        --primary-link-color: hsl(var(--color-white-hsl) / 0.75);
-        --primary-link-hover-color: var(--color-white);
-        --search-background-color: hsl(var(--color-white-hsl) / 0.05);
+        --primary-font-color: hsl(var(--color-black-hsl) / 0.75);
+        --primary-link-color: hsl(var(--color-black-hsl) / 0.75);
+        --primary-link-hover-color: var(--color-black);
+        --search-background-color: hsl(var(--color-black-hsl) / 0.05);
     }
 }
